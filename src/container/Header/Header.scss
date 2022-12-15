@@ -8,8 +8,8 @@ img {
 	position: relative;
 	background: url("../../assets/bgIMG.png");
 	background-size: cover;
-	background-repeat: repeat;
 	background-position: center;
+	background-repeat: repeat;
 
 	.app__wrapper {
 		padding: 0;
@@ -62,7 +62,8 @@ img {
 
 	.badge-cmp,
 	.tag-cmp {
-		padding: 1rem 2rem;
+		padding: 1rem 2rem 1rem 1rem;
+		margin-right: 1rem;
 		border: var(--white-color);
 		border-radius: 15px;
 		flex-direction: row;

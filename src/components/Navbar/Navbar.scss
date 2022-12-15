@@ -83,6 +83,7 @@
 	justify-content: center;
 	align-items: center;
 	background-color: var(--secondary-color);
+	z-index: 9999;
 
 	svg {
 		width: 70%;
