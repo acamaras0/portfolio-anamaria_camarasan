@@ -1,24 +1,25 @@
+#home {
+    position: relative;
+    background: url("../../assets/bgIMG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+
+    .app__wrapper {
+        padding: 0;
+
+        .copyright {
+            display: none;
+        }
+    }
+}
+
 img {
 	width: 20rem;
 	height: 20rem;
 	border-radius: 50%;
 }
 
-#home {
-	position: relative;
-	background: url("../../assets/bgIMG.png");
-	background-size: cover;
-	background-position: center;
-	background-repeat: repeat;
-
-	.app__wrapper {
-		padding: 0;
-
-		.copyright {
-			display: none;
-		}
-	}
-}
 
 .app__header {
 	flex: 1;
