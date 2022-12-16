@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./About.scss";
 import { motion } from "framer-motion";
 import { images } from "../../constants";
+import AppWrap from "../../wrapper/AppWrap";
 
 const About = () => {
 	const abouts = [
@@ -26,10 +27,12 @@ const About = () => {
 			imgUrl: images.about04,
 		},
 	];
+
 	return (
 		<>
 			<h2 className="head-text">
-				I know that a <span>Good App</span> <br /> is a <span>Good Business</span>
+				I know that a <span>Good App</span> <br /> is a{" "}
+				<span>Good Business</span>
 			</h2>
 			<div className="app__profiles">
 				{abouts.map((about, index) => (
@@ -54,4 +57,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default AppWrap(About, "about");
