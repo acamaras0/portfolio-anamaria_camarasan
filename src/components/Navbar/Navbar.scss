@@ -10,6 +10,7 @@
 	backdrop-filter: blur(4px);
 	-webkit-backdrop-filter: blur(4px);
 	border: 1px solid rgba(255, 255, 255, 0.18);
+	position: fixed;
 	z-index: 2;
 }
 
@@ -95,7 +96,6 @@
 		top: 0;
 		bottom: 0;
 		right: 0;
-		z-index: 5;
 		padding: 1rem;
 		width: 80%;
 		height: 100vh;
