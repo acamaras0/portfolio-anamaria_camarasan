@@ -8,33 +8,44 @@ import "./Work.scss";
 const Work = () => {
   const [activeFilter, setActiveFilter] = React.useState("All");
   const [animateCard, setAnimateCard] = React.useState({ y: 0, opacity: 1 });
-
+  const [filterWorks, setFilterWorks] = React.useState([]);
   const works = [
     {
       title: "Hypertube",
-      description: "Some text here",
+      description: "A Netflix-like movie streaming website",
       imgUrl: images.about01,
-      link: "",
-      tags: "",
+      link: "https://github.com/acamaras0/Hypertube",
+      tags: ["React", "NodeJS"],
     },
     {
       title: "Matcha",
-      description: "Some text here",
+      description: "Full-Stack dating website",
       imgUrl: images.about02,
-      link: "",
-      tags: "",
+      link: "https://github.com/acamaras0/matcha",
+      tags: ["React", "NodeJS"],
     },
     {
       title: "Camagru",
-      description: "Some text here",
+      description: "Instagram-like website",
       imgUrl: images.about03,
-      link: "",
-      tags: "",
+      link: "https://github.com/acamaras0/camagru",
+      tags: ["PHP"],
     },
   ];
 
   const handleWorkFilter = (item) => {
     setActiveFilter(item);
+    setAnimateCard({ y: 100, opacity: 0 });
+
+    setTimeout(() => {
+      setAnimateCard({ y: 0, opacity: 1 });
+
+      if (item === "All") {
+        setFilterWorks(works);
+      } else {
+        setFilterWorks(works.filter((work) => work.tags.includes(item)));
+      }
+    }, 500);
   };
   return (
     <>
@@ -59,7 +70,7 @@ const Work = () => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
-        {works.map((work, index) => (
+        {filterWorks.map((work, index) => (
           <div className="app__work-item app__flex" key={index}>
             <div className="app__work-img app__flex">
               <img src={work.imgUrl} alt={work.title} />
