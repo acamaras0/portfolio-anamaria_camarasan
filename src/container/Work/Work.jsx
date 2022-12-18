@@ -1,14 +1,13 @@
 import React from "react";
-import { AiFillEye, AiFillGithub } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
-import { AppWrap } from "../../wrapper";
+import { AppWrap, MotionWrap } from "../../wrapper";
 import { images } from "../../constants";
 import "./Work.scss";
 
 const Work = () => {
   const [activeFilter, setActiveFilter] = React.useState("All");
   const [animateCard, setAnimateCard] = React.useState({ y: 0, opacity: 1 });
-  const [filterWorks, setFilterWorks] = React.useState([]);
   const works = [
     {
       title: "Hypertube",
@@ -32,6 +31,8 @@ const Work = () => {
       tags: ["PHP"],
     },
   ];
+
+  const [filterWorks, setFilterWorks] = React.useState(works);
 
   const handleWorkFilter = (item) => {
     setActiveFilter(item);
@@ -92,18 +93,6 @@ const Work = () => {
                     }}
                     className="app__flex"
                   >
-                    <AiFillEye />
-                  </motion.div>
-                </a>
-                <a href={work.link} target="_blank" rel="noreferrer">
-                  <motion.div
-                    whileInView={{ scale: [0, 1] }}
-                    whileHover={{ scale: [1, 0.9] }}
-                    transition={{
-                      duration: 0.25,
-                    }}
-                    className="app__flex"
-                  >
                     <AiFillGithub />
                   </motion.div>
                 </a>
@@ -125,4 +114,8 @@ const Work = () => {
   );
 };
 
-export default AppWrap(Work, "work");
+export default AppWrap(
+  MotionWrap(Work, "app__works"),
+  "work",
+  "app__primarybg"
+);
