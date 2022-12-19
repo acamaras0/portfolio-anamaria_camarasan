@@ -11,29 +11,36 @@ const Work = () => {
 	const works = [
 		{
 			title: "Hypertube",
-			description: "A Netflix-like movie streaming website",
+			description:
+				"A Netflix-Like application allowing a user to search, watch movies and comment. The videos are downloaded through the BitTorrent protocol. This was a team project done by 4 students in less than a month.",
 			imgUrl: images.hypertube,
 			link: "https://github.com/acamaras0/Hypertube",
 			tags: ["React", "NodeJS"],
-			tag: [" React ", " NodeJS "],
-
+			tag: [
+				" #React ",
+				" #Redux ",
+				" #NodeJS ",
+				" #PostgreSQL ",
+				" #Docker ",
+			],
 		},
 		{
 			title: "Matcha",
-			description: "Full-Stack dating website",
+			description:
+				"Full-stack dating website I created using React and NodeJs. At the beginning of this project I was not familiar with these technologies, so I took it as a challange to learn while doing.",
 			imgUrl: images.matcha,
 			link: "https://github.com/acamaras0/matcha",
 			tags: ["React", "NodeJS"],
-			tag: [" React ", " NodeJS "],
+			tag: [" #React ", " #NodeJS ", " #Bootstrap ", " #MariaDB "],
 		},
 		{
 			title: "Camagru",
-			description: "Instagram-like website",
+			description:
+				"A small Instagram-like website that enables users to make and share photo edits. For this school project, the usage of frameworks was forbidden, so everything had to be done manually.",
 			imgUrl: images.camagru,
 			link: "https://github.com/acamaras0/camagru",
 			tags: ["PHP"],
-			tag: [" PHP "],
-
+			tag: [" #PHP , #CSS , #HTML", " #MySQL"],
 		},
 	];
 
@@ -120,6 +127,19 @@ const Work = () => {
 						</div>
 					</div>
 				))}
+			</motion.div>
+			<motion.div
+				animate={{ x: [0, 100, 0] }}
+				transition={{ ease: "easeOut", duration: 5 }}
+			>
+				<p className="text">
+					{" "}
+					*** This Portflio can be counted as my most recent Front-End
+					Project. While bulding it up I focused on
+					sharpening my Front-End skills without any other
+					distractions. It gave me the chance to learn about HOC in
+					React and the usage of Framer Motion.{" "}
+				</p>
 			</motion.div>
 		</>
 	);

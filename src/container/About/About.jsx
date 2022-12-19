@@ -8,22 +8,22 @@ const About = () => {
   const abouts = [
     {
       title: "Web Development",
-      description: "Some text here",
+      description: "I've been passionately developing my Web Development skills in the last year, while working with technologies such React, NodeJs or PHP.",
       imgUrl: images.about01,
     },
     {
       title: "Full-Stack",
-      description: "Some text here",
+      description: "In my studies I focused on building Full-Stack applications with the latest available techologies.",
       imgUrl: images.about02,
     },
     {
       title: "Front-End",
-      description: "Some text here",
+      description: "As a creative individual, I enjoy developing Front-End solutions without losing my patience on the smallest of details.",
       imgUrl: images.about03,
     },
     {
       title: "Back-End",
-      description: "Some text here",
+      description: "I strongly believe that a secure and well-done Back-End is the base of a good application.",
       imgUrl: images.about04,
     },
   ];
@@ -47,9 +47,9 @@ const About = () => {
             <h2 className="bold-text" style={{ marginTop: 20 }}>
               {about.title}
             </h2>
-            <h3 className="bold-text" style={{ marginTop: 10 }}>
+            <p className="p-text" style={{ marginTop: 10 }}>
               {about.description}
-            </h3>
+            </p>
           </motion.div>
         ))}
       </div>

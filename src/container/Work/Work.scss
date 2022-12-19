@@ -135,20 +135,26 @@
   flex-direction: column;
 
   h4 {
-    margin-top: 1rem;
+    margin-top: 3rem;
     line-height: 1.5;
 
     @media screen and (min-width: 2000px) {
-      margin-top: 3rem;
+      margin-top: 5rem;
     }
   }
 
   .app__work-tag {
     position: absolute;
 
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 2rem;
     border-radius: 10px;
     background-color: #fff;
     top: -25px;
   }
+}
+
+p.text{
+  color: rgb(90, 0, 185);
+  text-align: center;
+  padding: 5rem;
 }

@@ -34,6 +34,10 @@ const Footer = () => {
 			<h2 className="head-text">
 				Let's <span>chat</span> over <span>a coffee</span>! ☕
 			</h2>
+			<p className="p-text">
+				You can reach to me on Linkedin, by e-mail or phone or simply by
+				using the form down below! 💌
+			</p>
 			<div className="app__footer-cards">
 				<div className="app__footer-card">
 					<img src={images.email} alt="email" />
