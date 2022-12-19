@@ -21,11 +21,9 @@
 
 	img {
 		width: 130px;
-		// height: 70px;
 
 		@media screen and (min-width: 2000px) {
-			width:200px;
-			// height: 90px;
+			width: 200px;
 		}
 	}
 }
