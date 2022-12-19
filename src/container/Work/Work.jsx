@@ -122,7 +122,7 @@ const Work = () => {
       >
         <p className="text">
           {" "}
-          *** This Portflio can be counted as my most recent Front-End Project.
+          *** This Portfolio can be counted as my most recent Front-End Project.
           While building it up I focused on sharpening my Front-End skills
           without any other distractions. It gave me the chance to learn about
           HOC in React and the usage of Framer Motion. 😌{" "}
