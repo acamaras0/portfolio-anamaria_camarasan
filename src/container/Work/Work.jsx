@@ -12,7 +12,7 @@ const Work = () => {
 		{
 			title: "Hypertube",
 			description:
-				"A Netflix-Like application allowing a user to search, watch movies and comment. The videos are downloaded through the BitTorrent protocol. This was a team project done by 4 students in less than a month.",
+				"A Netflix-Like application allowing a user to authenticate by creating a new account or by using his Github account, search, watch movies and comment. The videos are downloaded through the BitTorrent protocol.",
 			imgUrl: images.hypertube,
 			link: "https://github.com/acamaras0/Hypertube",
 			tags: ["React", "NodeJS"],
@@ -135,10 +135,10 @@ const Work = () => {
 				<p className="text">
 					{" "}
 					*** This Portflio can be counted as my most recent Front-End
-					Project. While bulding it up I focused on
-					sharpening my Front-End skills without any other
-					distractions. It gave me the chance to learn about HOC in
-					React and the usage of Framer Motion.{" "}
+					Project. While building it up I focused on sharpening my
+					Front-End skills without any other distractions. It gave me
+					the chance to learn about HOC in React and the usage of
+					Framer Motion. 😌{" "}
 				</p>
 			</motion.div>
 		</>
