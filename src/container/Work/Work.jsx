@@ -12,7 +12,7 @@ const Work = () => {
 		{
 			title: "Portfolio",
 			description:
-				"This Portfolio can be counted as my most recent Front-End Project. While building it up I focused on sharpening my Front-End skills without any other distractions. It gave me the chance to learn about HOC inReact and the usage of Framer Motion.",
+				"This Portfolio can be counted as my most recent Front-End Project. While building it up I focused on sharpening my Front-End skills without any other distractions. It gave me the chance to learn about HOC in React and the usage of Framer Motion.",
 			imgUrl: images.logo11,
 			link: "https://github.com/acamaras0/portfolio-anamaria_camarasan",
 			tags: ["React"],
