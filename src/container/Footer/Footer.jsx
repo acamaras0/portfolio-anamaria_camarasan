@@ -1,9 +1,8 @@
 import React, { useRef } from "react";
 import { images } from "../../constants";
-// import { motion } from "framer-motion";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import emailjs from "@emailjs/browser";
-import { FiLinkedin, FiGithub } from "react-icons/fi";
+import { TfiLinkedin, TfiGithub } from "react-icons/tfi";
 import "./Footer.scss";
 
 const Footer = () => {
@@ -42,12 +41,12 @@ const Footer = () => {
       <div className="app__socials">
 					<div>
 						<a href="https://www.linkedin.com/in/anamaria-camarasan-179615244">
-							<FiLinkedin />
+							<TfiLinkedin />
 						</a>
 					</div>
 					<div>
 						<a href="https://github.com/acamaras0">
-							<FiGithub />
+							<TfiGithub />
 						</a>
 					</div>
 				</div>

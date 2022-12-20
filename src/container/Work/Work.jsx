@@ -137,15 +137,6 @@ const Work = () => {
 					</div>
 				))}
 			</motion.div>
-			{/* <motion.div
-				animate={{ x: [0, 100, 0] }}
-				transition={{ ease: "easeOut", duration: 5 }}
-			>
-				<p className="text">
-					{" "}
-					*** {" "}
-				</p>
-			</motion.div> */}
 		</>
 	);
 };
