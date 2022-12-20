@@ -1,8 +1,11 @@
-# Getting Started with Create React App
+# This portfolio is deployed:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Open [https://acamaras0.github.io/portfolio-anamaria_camarasan/](https://acamaras0.github.io/portfolio-anamaria_camarasan/) to view it in your browser.
 
-## Available Scripts
+
+
+
+# To run this project:
 
 In the project directory, you can run:
 

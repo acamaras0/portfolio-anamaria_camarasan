@@ -27,6 +27,7 @@ import about04 from "../assets/about04.png";
 import profile from "../assets/profile.png";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
+import logo11 from "../assets/logo11.png";
 
 import camagru from "../assets/camagru.png";
 import matcha from "../assets/matcha.png";
@@ -53,6 +54,7 @@ export default {
 	profile,
 	circle,
 	logo,
+	logo11,
 	bootstrap,
 	mysql,
 	postgresql,
