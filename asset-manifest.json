@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-anamaria_camarasan/static/css/main.fe884fbd.css",
-    "main.js": "/portfolio-anamaria_camarasan/static/js/main.80e60589.js",
+    "main.css": "/portfolio-anamaria_camarasan/static/css/main.63425238.css",
+    "main.js": "/portfolio-anamaria_camarasan/static/js/main.bb7d7c62.js",
     "static/media/profile.png": "/portfolio-anamaria_camarasan/static/media/profile.7adf26e048469e0546cc.png",
     "static/media/about04.png": "/portfolio-anamaria_camarasan/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/portfolio-anamaria_camarasan/static/media/about02.7a3df03410ee756268ec.png",
@@ -28,11 +28,11 @@
     "static/media/git.png": "/portfolio-anamaria_camarasan/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/portfolio-anamaria_camarasan/index.html",
     "static/media/circle.svg": "/portfolio-anamaria_camarasan/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.fe884fbd.css.map": "/portfolio-anamaria_camarasan/static/css/main.fe884fbd.css.map",
-    "main.80e60589.js.map": "/portfolio-anamaria_camarasan/static/js/main.80e60589.js.map"
+    "main.63425238.css.map": "/portfolio-anamaria_camarasan/static/css/main.63425238.css.map",
+    "main.bb7d7c62.js.map": "/portfolio-anamaria_camarasan/static/js/main.bb7d7c62.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe884fbd.css",
-    "static/js/main.80e60589.js"
+    "static/css/main.63425238.css",
+    "static/js/main.bb7d7c62.js"
   ]
 }
