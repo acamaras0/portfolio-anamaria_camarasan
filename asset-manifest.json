@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-anamaria_camarasan/static/css/main.fe884fbd.css",
-    "main.js": "/portfolio-anamaria_camarasan/static/js/main.aadd3901.js",
+    "main.js": "/portfolio-anamaria_camarasan/static/js/main.80e60589.js",
     "static/media/profile.png": "/portfolio-anamaria_camarasan/static/media/profile.7adf26e048469e0546cc.png",
     "static/media/about04.png": "/portfolio-anamaria_camarasan/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/portfolio-anamaria_camarasan/static/media/about02.7a3df03410ee756268ec.png",
@@ -10,12 +10,13 @@
     "static/media/bgWhite.png": "/portfolio-anamaria_camarasan/static/media/bgWhite.79658cadae50b3b16ee5.png",
     "static/media/matcha.png": "/portfolio-anamaria_camarasan/static/media/matcha.176ec109302274651410.png",
     "static/media/postgresql.png": "/portfolio-anamaria_camarasan/static/media/postgresql.205c6e1cf88f5fb991e4.png",
-    "static/media/camagru.png": "/portfolio-anamaria_camarasan/static/media/camagru.233ec699196891ab3fee.png",
     "static/media/about03.png": "/portfolio-anamaria_camarasan/static/media/about03.170a8849cee14d6d558c.png",
     "static/media/logo.png": "/portfolio-anamaria_camarasan/static/media/logo.0bef51c9df91bb7f09ec.png",
     "static/media/bootstrap.png": "/portfolio-anamaria_camarasan/static/media/bootstrap.7e47951bf7ac5d057c59.png",
+    "static/media/logo11.png": "/portfolio-anamaria_camarasan/static/media/logo11.475c3d55528616b89f39.png",
     "static/media/redux.png": "/portfolio-anamaria_camarasan/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/sass.png": "/portfolio-anamaria_camarasan/static/media/sass.36e863bfbcb25c109d00.png",
+    "static/media/camagru.png": "/portfolio-anamaria_camarasan/static/media/camagru.32d4da28e761fa4a1f96.png",
     "static/media/node.png": "/portfolio-anamaria_camarasan/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/hypertube.png": "/portfolio-anamaria_camarasan/static/media/hypertube.d5d16546af61d74ae3f8.png",
     "static/media/jira.png": "/portfolio-anamaria_camarasan/static/media/jira.f73d91c6adf3ef463b67.png",
@@ -28,10 +29,10 @@
     "index.html": "/portfolio-anamaria_camarasan/index.html",
     "static/media/circle.svg": "/portfolio-anamaria_camarasan/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "main.fe884fbd.css.map": "/portfolio-anamaria_camarasan/static/css/main.fe884fbd.css.map",
-    "main.aadd3901.js.map": "/portfolio-anamaria_camarasan/static/js/main.aadd3901.js.map"
+    "main.80e60589.js.map": "/portfolio-anamaria_camarasan/static/js/main.80e60589.js.map"
   },
   "entrypoints": [
     "static/css/main.fe884fbd.css",
-    "static/js/main.aadd3901.js"
+    "static/js/main.80e60589.js"
   ]
 }
