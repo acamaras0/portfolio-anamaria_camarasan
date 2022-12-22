@@ -99,7 +99,7 @@ const Footer = () => {
             </button>
           </div>
         </form>
-        <p classname="p-text" style={{ marginTop: "3rem" }}>
+        <p className="p-text" style={{ marginTop: "3rem" }}>
           {message}
         </p>
       </div>
