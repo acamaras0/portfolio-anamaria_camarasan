@@ -18,6 +18,7 @@ import mysql from "../assets/mysql.png";
 import postgresql from "../assets/postgresql.png";
 import php from "../assets/php.png";
 import jira from "../assets/jira.png";
+import jest from "../assets/jest.png";
 
 import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
@@ -60,6 +61,7 @@ export default {
 	postgresql,
 	php,
 	jira,
+	jest,
 	camagru,
 	matcha,
 	hypertube,

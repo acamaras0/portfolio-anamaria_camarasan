@@ -8,7 +8,7 @@ const About = () => {
   const abouts = [
     {
       title: "Web Development",
-      description: "I've been passionately developing my Web Development skills in the last year, while working with technologies such as React, NodeJs and PHP.",
+      description: "I've been passionately developing my Web Development skills in the last year, while working with technologies such as React, Typescript, NodeJs and PHP.",
       imgUrl: images.about01,
     },
     {
