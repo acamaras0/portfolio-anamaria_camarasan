@@ -92,11 +92,11 @@ const Skills = () => {
   const experiences = [
     {
       id: 0,
-      name: "Wolt Enterprise Oy",
+      name: "Wolt Enterprises Oy",
       duration: "2023 - Now",
       role: "Software Engineer",
       description:
-        "As a Software Engineer at Wolt Enterprise Oy, I am an integral member of the Retail Platforms, Warehouse team. Our primary focus is developing a comprehensive web application that serves Wolt Market employees globally, streamlining their daily operational tasks. My role predominantly revolves around utilizing React and TypeScript.",
+        "As a Software Engineer at Wolt Enterprises Oy, I am an integral member of the Retail Platforms, Warehouse team. Our primary focus is developing a comprehensive web application that serves Wolt Market employees globally, streamlining their daily operational tasks. My role predominantly revolves around utilizing React and TypeScript.",
     },
     {
       id: 1,

@@ -7,19 +7,19 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 const About = () => {
   const abouts = [
     {
+      title: "Front-End",
+      description: "As a creative individual, I enjoy developing Front-End solutions without losing my patience on the smallest of details.",
+      imgUrl: images.about03,
+    },
+    {
       title: "Web Development",
-      description: "I've been passionately developing my Web Development skills in the last year, while working with technologies such as React, Typescript, NodeJs and PHP.",
+      description: "I've been passionately developing my Web Development skills at Hive Helsinki, while working with technologies such as React, Typescript, NodeJs and PHP.",
       imgUrl: images.about01,
     },
     {
       title: "Full-Stack",
       description: "In my studies I focused on building Full-Stack applications with the latest available techologies.",
       imgUrl: images.about02,
-    },
-    {
-      title: "Front-End",
-      description: "As a creative individual, I enjoy developing Front-End solutions without losing my patience on the smallest of details.",
-      imgUrl: images.about03,
     },
     {
       title: "Back-End",
