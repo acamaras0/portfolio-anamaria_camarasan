@@ -10,7 +10,7 @@ import javascript from "../assets/javascript.png";
 import mu5 from "../assets/mu5.png";
 import node from "../assets/node.png";
 import react from "../assets/react.png";
-import redux from "../assets/redux.png";
+import styledComponents from "../assets/styledComponents.png";
 import sass from "../assets/sass.png";
 import typescript from "../assets/typescript.png";
 import bootstrap from "../assets/bootstrap.png";
@@ -45,7 +45,7 @@ export default {
 	mu5,
 	node,
 	react,
-	redux,
+	styledComponents,
 	sass,
 	typescript,
 	about01,
