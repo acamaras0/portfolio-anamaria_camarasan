@@ -10,72 +10,72 @@ const Skills = () => {
     {
       name: "React",
       image: images.react,
-      bgColor: "#fde4cf",
+      bgColor: "#d3f4ff9d",
     },
     {
       name: "TypeScript",
       image: images.typescript,
-      bgColor: "#b9fbc0",
-    },
-    {
-      name: "Styled Components",
-      image: images.styledComponents,
-      bgColor: "#ffcfd2",
+      bgColor: "#d3f4ff9d",
     },
     {
       name: "JavaScript",
       image: images.javascript,
-      bgColor: "#fbf8cc",
+      bgColor: "#d3f4ff9d",
+    },
+    {
+      name: "Styled Components",
+      image: images.styledComponents,
+      bgColor: "#d3f4ff9d",
     },
     {
       name: "HTML",
       image: images.html,
-      bgColor: "#a3c4f3",
+      bgColor: "#d3f4ff9d",
     },
     {
       name: "CSS",
       image: images.css,
-      bgColor: "#90dbf4",
+      bgColor: "#d3f4ff9d",
     },
     {
       name: "Node",
       image: images.node,
-      bgColor: "#f1c0e8",
+      bgColor: "#d3f4ff9d",
     },
     {
       name: "PHP",
       image: images.php,
-      bgColor: "#cfbaf0",
+      bgColor: "#d3f4ff9d",
     },
     {
       name: "PostgreSQL",
       image: images.postgresql,
-      bgColor: "#f1c0e8",
+      bgColor: "#d3f4ff9d",
     },
     {
       name: "MySQL",
       image: images.mysql,
-      bgColor: "#b9fbc0",
+      bgColor: "#d3f4ff9d",
     },
     {
       name: "Git",
       image: images.git,
-      bgColor: "#fbf8cc",
+      bgColor: "#d3f4ff9d",
     },
     {
       name: "API",
       image: images.api,
-      bgColor: "#ffcfd2",
+      bgColor: "#d3f4ff9d",
     },
     {
       name: "Jest",
       image: images.jest,
-      bgColor: "#cfbaf0",
+      bgColor: "#d3f4ff9d",
     },
     {
       name: "Jira",
       image: images.jira,
-      bgColor: "#fde4cf",
+      bgColor: "#d3f4ff9d",
     },
   ];
 
