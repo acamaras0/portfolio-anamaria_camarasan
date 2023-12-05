@@ -38,16 +38,6 @@ const Skills = () => {
       bgColor: "#90dbf4",
     },
     {
-      name: "MUI",
-      image: images.mu5,
-      bgColor: "#8eecf5",
-    },
-    {
-      name: "Bootstrap",
-      image: images.bootstrap,
-      bgColor: "#98f5e1",
-    },
-    {
       name: "Node",
       image: images.node,
       bgColor: "#f1c0e8",

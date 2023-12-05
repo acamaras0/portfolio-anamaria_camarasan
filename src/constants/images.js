@@ -7,13 +7,11 @@ import css from "../assets/css.png";
 import git from "../assets/git.png";
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
-import mu5 from "../assets/mu5.png";
 import node from "../assets/node.png";
 import react from "../assets/react.png";
 import styledComponents from "../assets/styledComponents.png";
 import sass from "../assets/sass.png";
 import typescript from "../assets/typescript.png";
-import bootstrap from "../assets/bootstrap.png";
 import mysql from "../assets/mysql.png";
 import postgresql from "../assets/postgresql.png";
 import php from "../assets/php.png";
@@ -32,7 +30,7 @@ import logo11 from "../assets/logo11.png";
 
 import camagru from "../assets/camagru.png";
 import matcha from "../assets/matcha.png";
-import hypertube from "../assets/hypertube.png";
+import hypertube from "../assets/hypertube1.png";
 
 export default {
 	email,
@@ -42,7 +40,6 @@ export default {
 	git,
 	html,
 	javascript,
-	mu5,
 	node,
 	react,
 	styledComponents,
@@ -56,7 +53,6 @@ export default {
 	circle,
 	logo,
 	logo11,
-	bootstrap,
 	mysql,
 	postgresql,
 	php,
