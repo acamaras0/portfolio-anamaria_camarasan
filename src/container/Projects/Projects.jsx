@@ -3,9 +3,9 @@ import { AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { images } from "../../constants";
-import "./Work.scss";
+import "./Projects.scss";
 
-const Work = () => {
+const Projects = () => {
 	const [activeFilter, setActiveFilter] = React.useState("All");
 	const [animateCard, setAnimateCard] = React.useState({ y: 0, opacity: 1 });
 	const works = [
@@ -142,7 +142,7 @@ const Work = () => {
 };
 
 export default AppWrap(
-	MotionWrap(Work, "app__works"),
-	"work",
+	MotionWrap(Projects, "app__works"),
+	"projects",
 	"app__primarybg"
 );
