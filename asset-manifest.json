@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-anamaria_camarasan/static/css/main.63425238.css",
-    "main.js": "/portfolio-anamaria_camarasan/static/js/main.929866a3.js",
+    "main.css": "/portfolio-anamaria_camarasan/static/css/main.0e84c479.css",
+    "main.js": "/portfolio-anamaria_camarasan/static/js/main.e5ab5482.js",
     "static/media/about04.png": "/portfolio-anamaria_camarasan/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/portfolio-anamaria_camarasan/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/about01.png": "/portfolio-anamaria_camarasan/static/media/about01.080509de05322b7aafda.png",
@@ -15,7 +15,6 @@
     "static/media/logo.png": "/portfolio-anamaria_camarasan/static/media/logo.0bef51c9df91bb7f09ec.png",
     "static/media/bootstrap.png": "/portfolio-anamaria_camarasan/static/media/bootstrap.7e47951bf7ac5d057c59.png",
     "static/media/logo11.png": "/portfolio-anamaria_camarasan/static/media/logo11.475c3d55528616b89f39.png",
-    "static/media/redux.png": "/portfolio-anamaria_camarasan/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/sass.png": "/portfolio-anamaria_camarasan/static/media/sass.36e863bfbcb25c109d00.png",
     "static/media/camagru.png": "/portfolio-anamaria_camarasan/static/media/camagru.32d4da28e761fa4a1f96.png",
     "static/media/node.png": "/portfolio-anamaria_camarasan/static/media/node.8683d89cf78ffae3d1f7.png",
@@ -29,11 +28,11 @@
     "static/media/git.png": "/portfolio-anamaria_camarasan/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/portfolio-anamaria_camarasan/index.html",
     "static/media/circle.svg": "/portfolio-anamaria_camarasan/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.63425238.css.map": "/portfolio-anamaria_camarasan/static/css/main.63425238.css.map",
-    "main.929866a3.js.map": "/portfolio-anamaria_camarasan/static/js/main.929866a3.js.map"
+    "main.0e84c479.css.map": "/portfolio-anamaria_camarasan/static/css/main.0e84c479.css.map",
+    "main.e5ab5482.js.map": "/portfolio-anamaria_camarasan/static/js/main.e5ab5482.js.map"
   },
   "entrypoints": [
-    "static/css/main.63425238.css",
-    "static/js/main.929866a3.js"
+    "static/css/main.0e84c479.css",
+    "static/js/main.e5ab5482.js"
   ]
 }
