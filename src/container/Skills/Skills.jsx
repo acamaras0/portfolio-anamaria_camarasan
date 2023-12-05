@@ -10,72 +10,72 @@ const Skills = () => {
     {
       name: "React",
       image: images.react,
-      bgColor: "#d3f4ff9d",
+      bgColor: "#d9f5ff75",
     },
     {
       name: "TypeScript",
       image: images.typescript,
-      bgColor: "#d3f4ff9d",
+      bgColor: "#d9f5ff75",
     },
     {
       name: "JavaScript",
       image: images.javascript,
-      bgColor: "#d3f4ff9d",
+      bgColor: "#d9f5ff75",
     },
     {
       name: "Styled Components",
       image: images.styledComponents,
-      bgColor: "#d3f4ff9d",
+      bgColor: "#d9f5ff75",
     },
     {
       name: "HTML",
       image: images.html,
-      bgColor: "#d3f4ff9d",
+      bgColor: "#d9f5ff75",
     },
     {
       name: "CSS",
       image: images.css,
-      bgColor: "#d3f4ff9d",
+      bgColor: "#d9f5ff75",
     },
     {
       name: "Node",
       image: images.node,
-      bgColor: "#d3f4ff9d",
+      bgColor: "#d9f5ff75",
     },
     {
       name: "PHP",
       image: images.php,
-      bgColor: "#d3f4ff9d",
+      bgColor: "#d9f5ff75",
     },
     {
       name: "PostgreSQL",
       image: images.postgresql,
-      bgColor: "#d3f4ff9d",
+      bgColor: "#d9f5ff75",
     },
     {
       name: "MySQL",
       image: images.mysql,
-      bgColor: "#d3f4ff9d",
+      bgColor: "#d9f5ff75",
     },
     {
       name: "Git",
       image: images.git,
-      bgColor: "#d3f4ff9d",
+      bgColor: "#d9f5ff75",
     },
     {
       name: "API",
       image: images.api,
-      bgColor: "#d3f4ff9d",
+      bgColor: "#d9f5ff75",
     },
     {
       name: "Jest",
       image: images.jest,
-      bgColor: "#d3f4ff9d",
+      bgColor: "#d9f5ff75",
     },
     {
       name: "Jira",
       image: images.jira,
-      bgColor: "#d3f4ff9d",
+      bgColor: "#d9f5ff75",
     },
   ];
 
@@ -144,7 +144,6 @@ const Skills = () => {
                     <Tooltip
                       id={experience.description}
                       effect="solid"
-                      arrowColor="#fff"
                       className="skills-tooltip"
                       key={experience.description}
                     >
