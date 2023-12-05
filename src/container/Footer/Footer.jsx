@@ -8,16 +8,19 @@ import "./Footer.scss";
 const Footer = () => {
   const form = useRef();
   const [message, setMessage] = useState("");
+  const publicKey = process.env.REACT_APP_PUBLIC_KEY;
+  const serviceId = process.env.REACT_APP_EMAIL_SERVICE_ID;
+  const templateId = process.env.REACT_APP_EMAIL_TEMPLATE_ID;
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "default_service",
-        "template_ne68867",
+        serviceId,
+        templateId,
         form.current,
-        "ZkIxe3enY39PvQ_uF"
+        publicKey
       )
       .then(
         () => {
