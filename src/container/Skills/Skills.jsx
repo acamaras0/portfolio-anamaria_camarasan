@@ -68,8 +68,8 @@ const Skills = () => {
       bgColor: "#d9f5ff75",
     },
     {
-      name: "Jest",
-      image: images.jest,
+      name: "Vitest",
+      image: images.vitest,
       bgColor: "#d9f5ff75",
     },
     {
