@@ -14,7 +14,7 @@ const Projects = () => {
 			description:
 				"This Portfolio can be counted as my most recent Front-End Project. While building it up I focused on sharpening my Front-End skills without any other distractions. It gave me the chance to learn about HOC in React and the usage of Framer Motion.",
 			imgUrl: images.logo11,
-			link: "https://github.com/acamaras0/anamaria_camarasan",
+			link: "https://github.com/acamaras0/anamaria-camarasan",
 			tags: ["React"],
 			tag: [" #React ", " #Framer Motion ", "#Sass"],
 		},
