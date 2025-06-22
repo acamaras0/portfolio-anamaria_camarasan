@@ -1,6 +1,6 @@
 # This portfolio is deployed:
 
-Open [https://acamaras0.github.io/portfolio-anamaria_camarasan/](https://acamaras0.github.io/portfolio-anamaria_camarasan/) to view it in your browser.
+Open [https://acamaras0.github.io/anamaria_camarasan/](https://acamaras0.github.io/anamaria_camarasan/) to view it in your browser.
 
 
 
