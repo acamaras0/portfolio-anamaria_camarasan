@@ -32,6 +32,28 @@ import camagru from "../assets/camagru.png";
 import matcha from "../assets/matcha.png";
 import hypertube from "../assets/hypertube1.png";
 
+import fotoApp from "../assets/fotoapplogo.jpg";
+
+import filmPhotography1 from "../assets/photography/35mm1.jpg";
+import filmPhotography2 from "../assets/photography/35mm2.jpeg";
+import filmPhotography3 from "../assets/photography/35mm3.jpg";
+import filmPhotography4 from "../assets/photography/35mm4.jpeg";
+
+import portraitPhotography1 from "../assets/photography/portrait1.jpg";
+import portraitPhotography2 from "../assets/photography/portrait2.jpeg";
+import portraitPhotography3 from "../assets/photography/portrait3.jpg";
+import portraitPhotography4 from "../assets/photography/portrait4.jpeg";
+
+import digitalPhotography1 from "../assets/photography/digital1.JPG";
+import digitalPhotography2 from "../assets/photography/digital2.jpeg";
+import digitalPhotography3 from "../assets/photography/digital3.jpeg";
+import digitalPhotography4 from "../assets/photography/digital4.jpeg";
+
+// Photography collections 
+const filmPhotographyImages = [filmPhotography1, filmPhotography2, filmPhotography3, filmPhotography4];
+const portraitPhotographyImages = [portraitPhotography1, portraitPhotography2, portraitPhotography3, portraitPhotography4];
+const digitalPhotographyImages = [digitalPhotography1, digitalPhotography2, digitalPhotography3, digitalPhotography4];
+
 export default {
 	email,
 	mobile,
@@ -61,4 +83,9 @@ export default {
 	camagru,
 	matcha,
 	hypertube,
+	fotoApp,
+	// Photography collections
+	filmPhotographyImages,
+	portraitPhotographyImages,
+	digitalPhotographyImages,
 };
