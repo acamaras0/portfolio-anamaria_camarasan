@@ -13,12 +13,12 @@ const Hobbies = () => {
 		{
 			title: "Film Photography",
 			imgUrls: images.filmPhotographyImages,
-			description: "35mm and medium format cameras"
+			description: "35mm format cameras"
 		},
 		{
 			title: "Digital Photography", 
 			imgUrls: images.digitalPhotographyImages,
-			description: "DSLR and mirrorless cameras"
+			description: "DSLR and compact cameras"
 		},
 		{
 			title: "Portrait Photography",
