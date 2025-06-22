@@ -11,8 +11,7 @@ const Footer = () => {
         Let's <span>chat</span> over <span>a coffee</span>! ☕
       </h2>
       <p className="p-text">
-        You can reach to me on Linkedin, by e-mail or phone or simply by using
-        the form down below! 💌
+        You can reach to me on Linkedin, by e-mail or by phone 💌
       </p>
       <div className="app__socials">
         <div>
@@ -30,7 +29,7 @@ const Footer = () => {
         <div className="app__footer-card">
           <img src={images.email} alt="email" />
           <a href="mailto:anamaria.finn0@gmail.com" className="p-text">
-            anamaria.finn0@gmail.com{" "}
+            anamaria.cmrs@gmail.com{" "}
           </a>
         </div>
         <div className="app__footer-card">
