@@ -1,37 +1,10 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
-import emailjs from "@emailjs/browser";
 import { TfiLinkedin, TfiGithub } from "react-icons/tfi";
 import "./Footer.scss";
 
 const Footer = () => {
-  const form = useRef();
-  const [message, setMessage] = useState("");
-  const publicKey = process.env.REACT_APP_PUBLIC_KEY;
-  const serviceId = process.env.REACT_APP_EMAIL_SERVICE_ID;
-  const templateId = process.env.REACT_APP_EMAIL_TEMPLATE_ID;
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        serviceId,
-        templateId,
-        form.current,
-        publicKey
-      )
-      .then(
-        () => {
-          setMessage("Message sent sucessfully!");
-        },
-        () => {
-          setMessage("Failed to send the message. Try again!");
-        }
-      );
-  };
-
   return (
     <>
       <h2 className="head-text">
@@ -66,45 +39,6 @@ const Footer = () => {
             +358449419417{" "}
           </a>
         </div>
-      </div>
-      <div className="app__footer-form app__flex">
-        <form ref={form} onSubmit={sendEmail} className="footer-form">
-          <div className="app__flex">
-            <input
-              className="p-text"
-              type="text"
-              placeholder="Your Name"
-              name="name"
-              required
-            ></input>
-          </div>
-          <div className="app__flex">
-            <input
-              className="p-text"
-              type="email"
-              placeholder="Your Email"
-              name="email"
-              required
-            ></input>
-          </div>
-          <div>
-            <textarea
-              className="p-text"
-              type="email"
-              placeholder="Message"
-              name="message"
-              required
-            />
-          </div>
-          <div className="form-button">
-            <button type="submit" className="p-text">
-              Send
-            </button>
-          </div>
-        </form>
-        <p className="p-text" style={{ marginTop: "3rem" }}>
-          {message}
-        </p>
       </div>
     </>
   );
