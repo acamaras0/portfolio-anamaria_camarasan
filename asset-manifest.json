@@ -1,9 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-anamaria_camarasan/static/css/main.4d11892c.css",
-    "main.js": "/portfolio-anamaria_camarasan/static/js/main.3fd86cf9.js",
+    "main.css": "/portfolio-anamaria_camarasan/static/css/main.466e8be9.css",
+    "main.js": "/portfolio-anamaria_camarasan/static/js/main.35e53d73.js",
+    "static/media/digital1.JPG": "/portfolio-anamaria_camarasan/static/media/digital1.0b14f325f34dc853cd36.JPG",
+    "static/media/portrait2.jpeg": "/portfolio-anamaria_camarasan/static/media/portrait2.fcb96bfc1aecc07ed449.jpeg",
+    "static/media/portrait4.jpeg": "/portfolio-anamaria_camarasan/static/media/portrait4.89c61481c40375accdf8.jpeg",
+    "static/media/portrait1.jpg": "/portfolio-anamaria_camarasan/static/media/portrait1.56fa93fa0dffadc12baf.jpg",
+    "static/media/35mm3.jpg": "/portfolio-anamaria_camarasan/static/media/35mm3.89b58415f4322941c191.jpg",
+    "static/media/35mm1.jpg": "/portfolio-anamaria_camarasan/static/media/35mm1.91da8b4564754f1d19d8.jpg",
+    "static/media/portrait3.jpg": "/portfolio-anamaria_camarasan/static/media/portrait3.5ffe9c38713bcbffb20a.jpg",
+    "static/media/35mm4.jpeg": "/portfolio-anamaria_camarasan/static/media/35mm4.c7af11569d634f2d9335.jpeg",
+    "static/media/35mm2.jpeg": "/portfolio-anamaria_camarasan/static/media/35mm2.bc94279bfde2d215523c.jpeg",
+    "static/media/digital4.jpeg": "/portfolio-anamaria_camarasan/static/media/digital4.58384143bdfbbf6458c7.jpeg",
     "static/media/about04.png": "/portfolio-anamaria_camarasan/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/portfolio-anamaria_camarasan/static/media/about02.7a3df03410ee756268ec.png",
+    "static/media/digital3.jpeg": "/portfolio-anamaria_camarasan/static/media/digital3.b565fac65570dd45daea.jpeg",
     "static/media/about01.png": "/portfolio-anamaria_camarasan/static/media/about01.080509de05322b7aafda.png",
     "static/media/bgIMG.png": "/portfolio-anamaria_camarasan/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/bgWhite.png": "/portfolio-anamaria_camarasan/static/media/bgWhite.79658cadae50b3b16ee5.png",
@@ -11,9 +22,11 @@
     "static/media/matcha.png": "/portfolio-anamaria_camarasan/static/media/matcha.176ec109302274651410.png",
     "static/media/postgresql.png": "/portfolio-anamaria_camarasan/static/media/postgresql.205c6e1cf88f5fb991e4.png",
     "static/media/vitest.png": "/portfolio-anamaria_camarasan/static/media/vitest.2ee78e5018db32cbe34a.png",
+    "static/media/digital2.jpeg": "/portfolio-anamaria_camarasan/static/media/digital2.e7047786b95492311fed.jpeg",
     "static/media/about03.png": "/portfolio-anamaria_camarasan/static/media/about03.170a8849cee14d6d558c.png",
     "static/media/logo.png": "/portfolio-anamaria_camarasan/static/media/logo.0bef51c9df91bb7f09ec.png",
     "static/media/logo11.png": "/portfolio-anamaria_camarasan/static/media/logo11.475c3d55528616b89f39.png",
+    "static/media/fotoapplogo.jpg": "/portfolio-anamaria_camarasan/static/media/fotoapplogo.6f9e66aa2ea50fa56434.jpg",
     "static/media/sass.png": "/portfolio-anamaria_camarasan/static/media/sass.36e863bfbcb25c109d00.png",
     "static/media/camagru.png": "/portfolio-anamaria_camarasan/static/media/camagru.32d4da28e761fa4a1f96.png",
     "static/media/node.png": "/portfolio-anamaria_camarasan/static/media/node.8683d89cf78ffae3d1f7.png",
@@ -27,11 +40,11 @@
     "static/media/git.png": "/portfolio-anamaria_camarasan/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/portfolio-anamaria_camarasan/index.html",
     "static/media/circle.svg": "/portfolio-anamaria_camarasan/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.4d11892c.css.map": "/portfolio-anamaria_camarasan/static/css/main.4d11892c.css.map",
-    "main.3fd86cf9.js.map": "/portfolio-anamaria_camarasan/static/js/main.3fd86cf9.js.map"
+    "main.466e8be9.css.map": "/portfolio-anamaria_camarasan/static/css/main.466e8be9.css.map",
+    "main.35e53d73.js.map": "/portfolio-anamaria_camarasan/static/js/main.35e53d73.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d11892c.css",
-    "static/js/main.3fd86cf9.js"
+    "static/css/main.466e8be9.css",
+    "static/js/main.35e53d73.js"
   ]
 }
