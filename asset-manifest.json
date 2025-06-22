@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-anamaria_camarasan/static/css/main.76964f04.css",
-    "main.js": "/portfolio-anamaria_camarasan/static/js/main.6e083eaf.js",
+    "main.js": "/portfolio-anamaria_camarasan/static/js/main.acfb67f0.js",
     "static/media/about04.png": "/portfolio-anamaria_camarasan/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/portfolio-anamaria_camarasan/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/about01.png": "/portfolio-anamaria_camarasan/static/media/about01.080509de05322b7aafda.png",
@@ -28,10 +28,10 @@
     "index.html": "/portfolio-anamaria_camarasan/index.html",
     "static/media/circle.svg": "/portfolio-anamaria_camarasan/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "main.76964f04.css.map": "/portfolio-anamaria_camarasan/static/css/main.76964f04.css.map",
-    "main.6e083eaf.js.map": "/portfolio-anamaria_camarasan/static/js/main.6e083eaf.js.map"
+    "main.acfb67f0.js.map": "/portfolio-anamaria_camarasan/static/js/main.acfb67f0.js.map"
   },
   "entrypoints": [
     "static/css/main.76964f04.css",
-    "static/js/main.6e083eaf.js"
+    "static/js/main.acfb67f0.js"
   ]
 }
