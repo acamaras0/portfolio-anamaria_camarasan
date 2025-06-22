@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { images } from "../../constants";
@@ -84,7 +85,7 @@ const Hobbies = () => {
 	return (
 		<>
 			<h2 className="head-text">
-				My <span>Photography</span> Hobbies
+				My <span>Photography</span> Hobby
 			</h2>
 			<p className="p-text" style={{ marginTop: 20, marginBottom: 40, textAlign: 'center' }}>
 				When I'm not coding, you'll find me exploring the world through my camera lens. 
@@ -95,7 +96,7 @@ const Hobbies = () => {
 			<div className="app__hobbies-carousel">
 				<div className="app__carousel-container">
 					<button className="app__carousel-btn app__carousel-btn--prev" onClick={prevSlide}>
-						&#8249;
+						<FaArrowLeft />
 					</button>
 
 					<div className="app__carousel-slides">
@@ -133,7 +134,7 @@ const Hobbies = () => {
 					</div>
 
 					<button className="app__carousel-btn app__carousel-btn--next" onClick={nextSlide}>
-						&#8250;
+						<FaArrowRight />
 					</button>
 				</div>
 
@@ -184,7 +185,7 @@ const Hobbies = () => {
 				<div className="app__foto-app-content">
 					<div className="app__foto-app-text">
 						<p className="p-text">
-							You can find me on <span>Foto App</span>
+							You can find me on the <span>Foto App</span>
 						</p>
 					</div>
 					<div className="app__foto-app-image">
